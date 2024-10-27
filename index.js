@@ -28,7 +28,7 @@ app.get("/staff-dashboard", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/หน้าแรก1.html"); // เปลี่ยนเป็นชื่อไฟล์ของคุณ
+    res.sendFile(__dirname + "/public/index.html"); // เปลี่ยนเป็นชื่อไฟล์ของคุณ
 });
 
 
